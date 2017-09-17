@@ -1,0 +1,8 @@
+Gu.Analyzers
+Gu.Reactive
+IDisposableAnalyzers
+System.Reactive.Core
+System.Reactive.Interfaces
+System.Reactive.Linq
+System.Reactive.PlatformServices
+WpfAnalyzers
