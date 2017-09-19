@@ -1,14 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{71ABC335-437A-4B9F-B499-90576FE154FC}"
 	ProjectSection(SolutionItems) = preProject
 		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+		.paket\Readme.paket.md = .paket\Readme.paket.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynSandbox", "RoslynSandbox\RoslynSandbox.csproj", "{2D24EAFE-7EF0-4BED-9E59-099F8DACF7D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoslynSandbox", "RoslynSandbox\RoslynSandbox.csproj", "{2D24EAFE-7EF0-4BED-9E59-099F8DACF7D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {076C0658-A468-4C2C-9F38-53D254E9997B}
 	EndGlobalSection
 EndGlobal

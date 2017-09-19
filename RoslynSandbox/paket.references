@@ -1,5 +1,7 @@
 Gu.Analyzers
 Gu.Reactive
+Ninject
+
 IDisposableAnalyzers
 System.Reactive.Core
 System.Reactive.Interfaces

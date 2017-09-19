@@ -11,3 +11,4 @@ nuget System.Reactive.Core
 nuget System.Reactive.Interfaces
 nuget System.Reactive.Linq
 nuget System.Reactive.PlatformServices
+nuget Ninject

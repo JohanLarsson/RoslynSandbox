@@ -1,9 +1,9 @@
 ﻿namespace RoslynSandbox
 {
-    using System.IO;
+    using System.ComponentModel;
+    using System.Runtime.CompilerServices;
 
-    public class Foo
+    public class Foo : INotifyPropertyChanged
     {
-        private readonly Stream stream = File.OpenRead(string.Empty);
     }
 }
