@@ -1,9 +1,6 @@
 ﻿namespace RoslynSandbox
 {
-    using System.ComponentModel;
-    using System.Runtime.CompilerServices;
-
-    public class Foo : INotifyPropertyChanged
+    public class ViewModel : Caliburn.PresentationFramework.PropertyChangedBase
     {
     }
 }

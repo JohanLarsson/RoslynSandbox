@@ -1,6 +1,8 @@
 Gu.Analyzers
 Gu.Reactive
 Ninject
+MvvmLight
+Caliburn.Micro
 
 IDisposableAnalyzers
 System.Reactive.Core
