@@ -1,11 +1,6 @@
 storage: none
 source https://www.nuget.org/api/v2/
 
-nuget Gu.Analyzers
-nuget WpfAnalyzers
-nuget IDisposableAnalyzers
-nuget Gu.Reactive.Analyzers
-
 nuget Gu.Reactive
 nuget System.Reactive.Core
 nuget System.Reactive.Interfaces
@@ -14,3 +9,12 @@ nuget System.Reactive.PlatformServices
 nuget Ninject
 nuget MvvmLight
 nuget Caliburn.Micro
+
+group Analyzers
+  storage: none
+  source https://www.nuget.org/api/v2/
+  nuget Gu.Analyzers
+  nuget WpfAnalyzers
+  nuget IDisposableAnalyzers
+  nuget Gu.Reactive.Analyzers
+  nuget PropertyChangedAnalyzers

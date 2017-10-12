@@ -1,12 +1,16 @@
-Gu.Analyzers
 Gu.Reactive
 Ninject
 MvvmLight
 Caliburn.Micro
 
-IDisposableAnalyzers
 System.Reactive.Core
 System.Reactive.Interfaces
 System.Reactive.Linq
 System.Reactive.PlatformServices
-WpfAnalyzers
+
+group Analyzers
+  Gu.Analyzers
+  WpfAnalyzers
+  IDisposableAnalyzers
+  Gu.Reactive.Analyzers
+  PropertyChangedAnalyzers
