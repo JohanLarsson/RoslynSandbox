@@ -1,14 +1,21 @@
 storage: none
 source https://www.nuget.org/api/v2/
 
-nuget Gu.Reactive
+nuget System.Collections.Immutable
 nuget System.Reactive.Core
 nuget System.Reactive.Interfaces
 nuget System.Reactive.Linq
 nuget System.Reactive.PlatformServices
+
+nuget Gu.Reactive
+nuget NUnit
 nuget Ninject
 nuget MvvmLight
 nuget Caliburn.Micro
+nuget Stylet
+nuget MvvmCross
+nuget Prism.Mvvm
+nuget Moq
 
 group Analyzers
   storage: none
@@ -18,3 +25,4 @@ group Analyzers
   nuget IDisposableAnalyzers
   nuget Gu.Reactive.Analyzers
   nuget PropertyChangedAnalyzers
+  nuget StyleCop.Analyzers

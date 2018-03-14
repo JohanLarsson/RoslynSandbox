@@ -1,12 +1,18 @@
-Gu.Reactive
-Ninject
-MvvmLight
-Caliburn.Micro
-
+System.Collections.Immutable
 System.Reactive.Core
 System.Reactive.Interfaces
 System.Reactive.Linq
 System.Reactive.PlatformServices
+
+NUnit
+Gu.Reactive
+Ninject
+MvvmLight
+Caliburn.Micro
+Stylet
+MvvmCross
+Prism.Mvvm
+Moq
 
 group Analyzers
   Gu.Analyzers
@@ -14,3 +20,4 @@ group Analyzers
   IDisposableAnalyzers
   Gu.Reactive.Analyzers
   PropertyChangedAnalyzers
+  StyleCop.Analyzers
