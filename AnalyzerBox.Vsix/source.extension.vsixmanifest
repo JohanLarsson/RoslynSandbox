@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="AnalyzerBox.158132EE-6649-4FEC-9D43-0C3F3ED7EE94" Version="0.1.0.0" Language="en-US" Publisher="Johan Larsson"/>
+    <DisplayName>AnalyzerBox</DisplayName>
+    <Description xml:space="preserve">AnalyzerBox</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[14.0,]" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[14.0,16.0)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[14.0,16.0)" DisplayName="Roslyn Language Services" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="AnalyzerBox" Path="|AnalyzerBox|"/>
+    <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="AnalyzerBox" Path="|AnalyzerBox|"/>
+  </Assets>
+</PackageManifest>

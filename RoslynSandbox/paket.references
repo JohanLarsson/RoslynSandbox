@@ -3,7 +3,6 @@ System.Reactive.Core
 System.Reactive.Interfaces
 System.Reactive.Linq
 System.Reactive.PlatformServices
-
 NUnit
 Gu.Reactive
 Ninject
@@ -13,11 +12,16 @@ Stylet
 MvvmCross
 Prism.Mvvm
 Moq
+Gu.Wpf.Reactive
+Microsoft.CodeAnalysis.CSharp.Workspaces
+Avalonia
+Gu.Localization
 
 group Analyzers
-  Gu.Analyzers
   WpfAnalyzers
   IDisposableAnalyzers
+  Gu.Analyzers
+  Gu.Localization.Analyzers
   Gu.Reactive.Analyzers
   PropertyChangedAnalyzers
   StyleCop.Analyzers

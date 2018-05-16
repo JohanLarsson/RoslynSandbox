@@ -16,13 +16,22 @@ nuget Stylet
 nuget MvvmCross
 nuget Prism.Mvvm
 nuget Moq
+nuget Gu.Wpf.Reactive
+nuget Microsoft.CodeAnalysis.CSharp.Workspaces
+nuget Avalonia
+nuget Gu.Localization
+
+group Build
+  source http://www.nuget.org/api/v2/
+  nuget Microsoft.VSSDK.BuildTools
 
 group Analyzers
   storage: none
   source https://www.nuget.org/api/v2/
-  nuget Gu.Analyzers
   nuget WpfAnalyzers
   nuget IDisposableAnalyzers
+  nuget Gu.Analyzers
+  nuget Gu.Localization.Analyzers
   nuget Gu.Reactive.Analyzers
   nuget PropertyChangedAnalyzers
   nuget StyleCop.Analyzers
