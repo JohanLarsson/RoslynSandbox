@@ -10,15 +10,9 @@ nuget System.Reactive.PlatformServices
 nuget Gu.Reactive
 nuget NUnit
 nuget Ninject
-nuget MvvmLight
-nuget Caliburn.Micro
-nuget Stylet
-nuget MvvmCross
-nuget Prism.Mvvm
 nuget Moq
 nuget Gu.Wpf.Reactive
 nuget Microsoft.CodeAnalysis.CSharp.Workspaces
-nuget Avalonia
 nuget Gu.Localization
 
 group Build
