@@ -10,11 +10,13 @@ Moq
 Gu.Wpf.Reactive
 Microsoft.CodeAnalysis.CSharp.Workspaces
 Gu.Localization
+
 group Analyzers
-WpfAnalyzers
-IDisposableAnalyzers
-Gu.Analyzers
-Gu.Localization.Analyzers
-Gu.Reactive.Analyzers
-PropertyChangedAnalyzers
-StyleCop.Analyzers
+  WpfAnalyzers
+  IDisposableAnalyzers
+  Gu.Analyzers
+  Gu.Localization.Analyzers
+  Gu.Reactive.Analyzers
+  PropertyChangedAnalyzers
+  ReflectionAnalyzers
+  StyleCop.Analyzers

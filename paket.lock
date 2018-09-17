@@ -804,11 +804,12 @@ GROUP Analyzers
 STORAGE: NONE
 NUGET
   remote: https://www.nuget.org/api/v2
-    Gu.Analyzers (1.2.18-dev)
+    Gu.Analyzers (1.2.18.1-dev)
     Gu.Localization.Analyzers (0.2.2.8)
     Gu.Reactive.Analyzers (0.1.3.9)
     IDisposableAnalyzers (2.0.3.2)
     PropertyChangedAnalyzers (2.5.12.4)
+    ReflectionAnalyzers (0.1.3-dev)
     StyleCop.Analyzers (1.0.2)
     WpfAnalyzers (2.1.7)
 

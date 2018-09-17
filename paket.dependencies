@@ -28,4 +28,5 @@ group Analyzers
   nuget Gu.Localization.Analyzers
   nuget Gu.Reactive.Analyzers
   nuget PropertyChangedAnalyzers
+  nuget ReflectionAnalyzers
   nuget StyleCop.Analyzers
