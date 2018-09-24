@@ -17,6 +17,7 @@ group Analyzers
   Gu.Analyzers
   Gu.Localization.Analyzers
   Gu.Reactive.Analyzers
+  Microsoft.CodeAnalysis.FxCopAnalyzers
   PropertyChangedAnalyzers
   ReflectionAnalyzers
   StyleCop.Analyzers

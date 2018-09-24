@@ -28,6 +28,7 @@ group Analyzers
   nuget Gu.Analyzers
   nuget Gu.Localization.Analyzers
   nuget Gu.Reactive.Analyzers
+  nuget Microsoft.CodeAnalysis.FxCopAnalyzers
   nuget PropertyChangedAnalyzers
   nuget ReflectionAnalyzers
   nuget StyleCop.Analyzers

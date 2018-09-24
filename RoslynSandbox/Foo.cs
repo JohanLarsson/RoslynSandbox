@@ -1,7 +1,12 @@
 ﻿namespace RoslynSandbox
 {
+    using System;
+
     class Foo
     {
-        public int Value { get; set; }
+        public Foo()
+        {
+            var methodInfo = typeof(string).GetMethod(nameof(IConvertible.ToBoolean));
+        }
     }
 }
