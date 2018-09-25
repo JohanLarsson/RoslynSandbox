@@ -4,26 +4,28 @@
     using System.Reflection;
     using NUnit.Framework;
 
+    public class Foo
+    {
+        public Foo(params int[] ints)
+        {
+            var foo = Activator.CreateInstance(typeof(Foo));
+        }
+    }
+
     internal class TestCases
     {
-        static TestCases()
-        {
-        }
-
         [Test]
         public void Method()
         {
-            var anon = new { Foo = 1 };
-            Console.WriteLine(anon.GetType().GetProperty("Foo"));
+            Activator.CreateInstance<Foo>();
+            //Activator.CreateInstance(typeof(Foo), 1);
+            //Activator.CreateInstance(typeof(Foo), "abc");
+            //Activator.CreateInstance(typeof(Foo), 1.0);
         }
 
-        [Test]
-        public void Methods()
+        internal static void Dump(MemberInfo member)
         {
-            foreach (var mi in typeof(Console).GetMethods(BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.DeclaredOnly))
-            {
-                Console.WriteLine(mi);
-            }
+            Console.WriteLine(member?.ToString() ?? "null");
         }
     }
 }

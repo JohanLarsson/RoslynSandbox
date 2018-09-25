@@ -2,11 +2,11 @@
 {
     using System;
 
-    class Foo
+    public class Foo
     {
-        public Foo()
+        public Foo(params int[] ints)
         {
-            var methodInfo = typeof(string).GetMethod(nameof(IConvertible.ToBoolean));
+            var foo = Activator.CreateInstance(typeof(Foo));
         }
     }
 }
