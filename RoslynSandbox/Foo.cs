@@ -4,9 +4,17 @@
 
     public class Foo
     {
-        public Foo(params int[] ints)
+        public Foo()
         {
-            var foo = Activator.CreateInstance(typeof(Foo));
+        }
+
+        public Foo(int value)
+        {
+        }
+
+        public static void Bar(string text)
+        {
+            typeof(Foo).GetConstructor(Type.EmptyTypes).Invoke(text, null);
         }
     }
 }

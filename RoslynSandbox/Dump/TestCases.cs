@@ -1,31 +1,32 @@
-﻿namespace RoslynSandbox.Dump
+﻿namespace RoslynSandbox
 {
     using System;
-    using System.Reflection;
-    using NUnit.Framework;
 
-    public class Foo
+    public class C<T>
+        where T : unmanaged
     {
-        public Foo(params int[] ints)
-        {
-            var foo = Activator.CreateInstance(typeof(Foo));
-        }
     }
+}
+
+namespace RoslynSandbox.Dump
+{
+    using System;
+    using NUnit.Framework;
 
     internal class TestCases
     {
         [Test]
         public void Method()
         {
-            Activator.CreateInstance<Foo>();
-            //Activator.CreateInstance(typeof(Foo), 1);
-            //Activator.CreateInstance(typeof(Foo), "abc");
-            //Activator.CreateInstance(typeof(Foo), 1.0);
+            typeof(C<>).MakeGenericType(typeof(Console)).Dump();
         }
+    }
 
-        internal static void Dump(MemberInfo member)
+    internal static class _
+    {
+        internal static void Dump(this object o)
         {
-            Console.WriteLine(member?.ToString() ?? "null");
+            Console.WriteLine(o?.ToString() ?? "null");
         }
     }
 }
