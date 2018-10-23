@@ -31,4 +31,4 @@ group Analyzers
   nuget Microsoft.CodeAnalysis.FxCopAnalyzers
   nuget PropertyChangedAnalyzers
   nuget ReflectionAnalyzers
-  nuget StyleCop.Analyzers
+  nuget StyleCop.Analyzers prerelease

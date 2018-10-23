@@ -827,10 +827,10 @@ GROUP Analyzers
 STORAGE: NONE
 NUGET
   remote: https://www.nuget.org/api/v2
-    Gu.Analyzers (1.2.18.1-dev)
+    Gu.Analyzers (1.3.1-dev)
     Gu.Localization.Analyzers (6.4.3)
     Gu.Reactive.Analyzers (0.1.3.9)
-    IDisposableAnalyzers (2.0.4)
+    IDisposableAnalyzers (2.0.5)
     Microsoft.CodeAnalysis.FxCopAnalyzers (2.6.2)
       Microsoft.CodeQuality.Analyzers (2.6.2)
       Microsoft.NetCore.Analyzers (2.6.2)
@@ -839,11 +839,11 @@ NUGET
     Microsoft.CodeQuality.Analyzers (2.6.2)
     Microsoft.NetCore.Analyzers (2.6.2)
     Microsoft.NetFramework.Analyzers (2.6.2)
-    PropertyChangedAnalyzers (2.6)
-    ReflectionAnalyzers (0.1.13-dev)
-    StyleCop.Analyzers (1.0.2)
+    PropertyChangedAnalyzers (2.6.0.1)
+    ReflectionAnalyzers (0.1.14-dev)
+    StyleCop.Analyzers (1.1.0-beta009)
     Text.Analyzers (2.6.2)
-    WpfAnalyzers (2.1.7.1)
+    WpfAnalyzers (2.2.0.2)
 
 GROUP Build
 NUGET
