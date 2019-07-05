@@ -698,7 +698,7 @@ GROUP Analyzers
 STORAGE: NONE
 NUGET
   remote: https://www.nuget.org/api/v2
-    Gu.Analyzers (1.5.2-dev)
+    Gu.Analyzers (1.5.3-dev)
     Gu.Localization.Analyzers (6.4.3)
     Gu.Reactive.Analyzers (0.1.3.10)
     IDisposableAnalyzers (2.1.2)
